@@ -130,18 +130,12 @@ with st.sidebar:
     
     #create variable for chart
     #userByMonth = df_main.groupby(['month']).agg({'count': 'mean','casual': 'mean','registered': 'mean'})
-    def build_userByMonth(df_main):
-        userByMonth = df_main.groupby(['month']).agg({'count': 'sum','casual': 'sum','registered': 'sum'})
-        month_order = ['January', 'February', 'March', 'April', 'May', 'June','July', 'August', 'September', 'October', 'November', 'December']
-        userByMonth = userByMonth.reindex(month_order, fill_value=0)
-        return userByMonth
-    userByMonth = build_userByMonth(df_main)
     userByMonth2 = df_main.groupby(['month']).agg({'count': 'sum','casual': 'sum','registered': 'sum'})
     
     userBySeason = df_main.groupby(['season']).agg({'count': 'sum','casual': 'sum','registered': 'sum'})
     userByWeek = df_main.groupby(['weekday']).agg({'count': 'sum','casual': 'sum','registered': 'sum'})
     
-    #stupid x axis on line chart
+    #not yet fixed x axis on line chart
     
 #setting dashboard layout
 col = st.columns((1.5, 4, 1.5), gap='medium')
