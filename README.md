@@ -15,8 +15,8 @@ I also created a dashboard to display a graph that shows the trend of bike renta
 6. At The first code section in data wrangling which is connecting to Google Drive. This code will make gdrive folder that contains Mydrive inside it and load csv file from it (With this code you dont have to upload csv file everytime you want to do analysis. It will automatically load .csv file from Google Drive)
    Connecting to Google Drive
  '''
-  from google.colab import drive
-  drive.mount('/content/gdrive')
+ from google.colab import drive
+ drive.mount('/content/gdrive')
  '''  
 8. To Upload day.csv and hour.csv, find upload section at Below "Daftar Isi" find this icon ![alt text](https://github.com/galahad20/B244006E_analisis_data/blob/main/picture/file_logo.png)?raw=true). Go to gdrive folder, you will find MyDrive folder and upload those 2 .csv files to MyDrive.
 
