@@ -26,7 +26,13 @@ I also created a dashboard to display a graph that shows the trend of bike renta
    df_jam = pd.read_csv("/content/gdrive/MyDrive/hour.csv", delimiter=",")
    df_hari.head()
    ```
-   > To Upload **day.csv** and **hour.csv**, find upload section at Below "Daftar Isi" find this icon ![alt text](https://github.com/galahad20/B244006E_analisis_data/blob/main/picture/file_logo.png?raw=true). Go to **gdrive** folder, you will find **MyDrive** folder and upload those 2 .csv files to MyDrive.
+   > To Upload **day.csv** and **hour.csv**, find upload section at Below "Daftar Isi" find this icon ![alt text](https://github.com/galahad20/B244006E_analisis_data/blob/main/picture/file_logo.png?raw=true).
+
+  
+   >
+   ![alt text](https://github.com/galahad20/B244006E_analisis_data/blob/main/picture/drive_pict.png?raw=true).
+
+   > Go to **gdrive** folder, you will find **MyDrive** folder and upload those 2 .csv files to MyDrive.
 
 10. Run the rest of code in file.
 
