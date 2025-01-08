@@ -134,7 +134,6 @@ with st.sidebar:
     userBySeason = df_main.groupby(['season']).agg({'count': 'sum','casual': 'sum','registered': 'sum'})
     userByWeek = df_main.groupby(['weekday']).agg({'count': 'sum','casual': 'sum','registered': 'sum'})
     
-    #stupid x axis on line chart
     
 #setting dashboard layout
 col = st.columns((1.5, 4, 1.5), gap='medium')
